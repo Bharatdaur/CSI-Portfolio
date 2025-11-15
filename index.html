@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="sun">☀️</span>
+                <span class="moon">🌙</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Bharat Daur</span></h1>
+            <p class="subtitle fade-in">Web Developer | Designer | Problem Solver</p>
+            <a href="#contact" class="cta-button fade-in">Get In Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with a love for creating beautiful, functional websites. With
+                        expertise in modern web technologies, I bring ideas to life through clean code and thoughtful
+                        design.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open source, or
+                        enjoying a good cup of coffee.</p>
+                </div>
+            </div>
+            <div class="skills-section">
+                <h3>Technical Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <span class="skill-icon">💻</span>
+                            <h4>Frontend Development</h4>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="item-icon">🌐</span>
+                                <span>HTML5 & CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="item-icon">⚡</span>
+                                <span>JavaScript (ES6+)</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="item-icon">⚛️</span>
+                                <span>React.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="item-icon">🎨</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-header">
+                            <span class="skill-icon">🔧</span>
+                            <h4>Backend & Tools</h4>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="item-icon">🟢</span>
+                                <span>Node.js & Express</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="item-icon">🗄️</span>
+                                <span>MongoDB & SQL</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="item-icon">📦</span>
+                                <span>Git & GitHub</span>
+                            </div>
+                            <div class="skill-item">
+                                <span class="item-icon">🤖</span>
+                                <span>ChatGPT & AI Tools</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1557821552-17105176677c?w=600&h=400&fit=crop"
+                            alt="E-Commerce Platform">
+                    </div>
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack online shopping platform with payment integration and user authentication.</p>
+                    <div class="project-tags">
+                        <span class="tag">React</span>
+                        <span class="tag">Node.js</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1592210454359-9043f067919b?w=600&h=400&fit=crop"
+                            alt="Weather App">
+                    </div>
+                    <h3>Weather App</h3>
+                    <p>Real-time weather application with location-based forecasts and interactive UI.</p>
+                    <div class="project-tags">
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=600&h=400&fit=crop"
+                            alt="Task Manager">
+                    </div>
+                    <h3>Task Manager</h3>
+                    <p>Productivity app for managing tasks with drag-and-drop functionality.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop"
+                            alt="Portfolio Website">
+                    </div>
+                    <h3>Portfolio Website</h3>
+                    <p>Responsive personal portfolio with dark/light theme toggle and smooth animations.</p>
+                    <div class="project-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Achievements & Experience</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="https://csigitam.github.io/assets/brand/logo-csi.jpg" alt="CSI Logo">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-icon">💼</div>
+                        <h3>Professional Web Developer</h3>
+                        <h4>Computer Society of India (CSI)</h4>
+                        <p>Leading web development initiatives and creating innovative solutions for CSI projects.
+                            Collaborating with team members to deliver high-quality web applications.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="https://th.bing.com/th/id/OIP.wtuG-in8Cu_Q6thZ0rF4mwHaEK?w=276&h=180&c=7&r=0&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+                            alt="ACM Logo">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-icon">🎓</div>
+                        <h3>Professional Web Developer</h3>
+                        <h4>AITR ACM Student Chapter</h4>
+                        <p>Developing and maintaining web platforms for ACM events and activities. Mentoring students in
+                            web development technologies and best practices.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="https://th.bing.com/th/id/OIP.SnRqY7tU9RFaZUCXaUzCpAHaEK?w=208&h=150&c=6&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+                            alt="IBM Logo">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-icon">🚀</div>
+                        <h3>Web Developer Intern</h3>
+                        <h4>IBM - 3 Months</h4>
+                        <p>Gained hands-on experience in enterprise web development. Worked on real-world projects using
+                            modern frameworks and contributed to IBM's web solutions.</p>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-image">
+                        <img src="https://th.bing.com/th/id/OIP.SnRqY7tU9RFaZUCXaUzCpAHaEK?w=208&h=150&c=6&o=7&cb=ucfimg2&pid=1.7&rm=3&ucfimg=1"
+                            alt="IBM AI Foundation">
+                    </div>
+                    <div class="achievement-content">
+                        <div class="achievement-icon">🤖</div>
+                        <h3>Basic in AI Foundation</h3>
+                        <h4>IBM Certification</h4>
+                        <p>Completed foundational training in Artificial Intelligence concepts, machine learning basics,
+                            and AI applications in modern technology.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <span class="error-message" id="nameError"></span>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <span class="error-message" id="emailError"></span>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+                <div class="success-message" id="successMessage">Message sent successfully! 🎉</div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Bharat Daur. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
